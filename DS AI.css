@@ -120,7 +120,7 @@ article{
 
 article img{
 	width: 100%;
-	height: 70%;
+	height: 63%;
 	object-fit: cover;
 }
 
@@ -176,7 +176,7 @@ h1{
 h2{
 	font-family: Minecraft;
 	font-size: 2rem;
-	color: magenta;
+	color: rgb(255, 255, 255);
 }
 
 p{
