@@ -169,6 +169,7 @@ h1{
 	font-size: 8rem;
 	background: linear-gradient(to right, fuchsia, magenta);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
