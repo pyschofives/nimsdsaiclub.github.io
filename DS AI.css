@@ -48,7 +48,7 @@ body{
 
 nav{
 	grid-area: nav;
-	background-image: linear-gradient(to right, black, #140023);
+	background-image: linear-gradient(to right, black, indigo);
 }
 
 nav ul{
@@ -106,7 +106,7 @@ header div{
 
 section{
 	grid-area: section;
-	background-image: linear-gradient(to right, rgb(0, 0, 0), indigo);
+	background-image: linear-gradient(to right, black, indigo);
 }
 
 #acerca{
@@ -144,7 +144,7 @@ img:hover{
 
 footer{
 	grid-area: footer;
-	background-image: linear-gradient(to right, rgb(0, 0, 0), indigo);
+	background-image: linear-gradient(to right, black, indigo);
 	text-align: center;
 }
 
@@ -176,7 +176,7 @@ header, section, #acerca, aside, #contacto, footer{
 h1{
 	font-family: Montserrat;
 	font-size: 8rem;
-	background: linear-gradient(to right, rgb(0, 255, 13), magenta);
+	background: linear-gradient(to right, rgb(0, 255, 13), white);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
