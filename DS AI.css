@@ -21,6 +21,15 @@ html{
 	src: url("fonts/Minecraft.otf");
 }
 
+@font-face{
+	font-family: Montserrat;
+	src: url("fonts/Montserrat-Bold.ttf");
+}
+@font-face{
+	font-family: Montserrat;
+	src: url("fonts/Montserrat-Regular.ttf");
+}
+
 body{
 	display: grid;
 	min-height: 100%;
@@ -145,7 +154,7 @@ footer{
 }
 
 footer img{
-	width: 3rem;
+	width: 2rem;
 	height: auto;
 	color: black;
 }
@@ -165,7 +174,7 @@ header, section, #acerca, aside, #contacto, footer{
 }
 
 h1{
-	font-family: unlearn;
+	font-family: Montserrat;
 	font-size: 8rem;
 	background: linear-gradient(to right, fuchsia, magenta);
 	-webkit-background-clip: text;
@@ -174,8 +183,18 @@ h1{
 }
 
 h2{
-	font-family: Minecraft;
-	font-size: 4rem;
+	font-family: Montserrat;
+	font-size: 2rem;
+	color: rgb(255, 255, 255);
+}
+h3{
+	font-family: Montserrat;
+	font-size: 2rem;
+	color: rgb(255, 255, 255);
+}
+h4{
+	font-family: Montserrat;
+	font-size: 1rem;
 	color: rgb(255, 255, 255);
 }
 
@@ -195,7 +214,7 @@ p{
 
 #acerca img{
 	float: right;
-	width: 50%;
+	width: 30%;
 }
 
 #contacto{
