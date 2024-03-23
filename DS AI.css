@@ -93,7 +93,7 @@ nav li:first-of-type, nav li:nth-child(2){
 
 header{
 	grid-area: header;
-	background-image: url("img/arcade3.jpg");
+	background-image: url("img/arcade4.jpg");
 	display: grid;
 	align-items: center;
 	padding-top: 8rem;
