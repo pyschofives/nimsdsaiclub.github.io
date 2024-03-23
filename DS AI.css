@@ -48,7 +48,7 @@ body{
 
 nav{
 	grid-area: nav;
-	background-image: linear-gradient(to right, black, #140023);
+	background-image: linear-gradient(to right, black, indigo);
 }
 
 nav ul{
@@ -60,7 +60,7 @@ nav ul{
 nav a{
 	text-decoration: none;
 	font-weight: bold;
-	color: magenta;
+	color: rgb(0, 255, 4);
 }
 
 nav li{	
@@ -68,7 +68,7 @@ nav li{
 }
 
 nav li:hover{
-	background-color: indigo;
+	background-color: rgb(0, 0, 0);
 }
 
 nav li:first-of-type, nav li:nth-child(2){
@@ -87,7 +87,7 @@ nav li:first-of-type, nav li:nth-child(2){
 }
 
 .dropdown p:hover{
-	background-color: indigo;
+	background-color: rgb(0, 0, 0);
 	color: black;	
 }
 
@@ -106,25 +106,25 @@ header div{
 
 section{
 	grid-area: section;
-	background-image: linear-gradient(to right, magenta, indigo);
+	background-image: linear-gradient(to right, black, indigo);
 }
 
 #acerca{
 	grid-area: acerca;
-	background-image: linear-gradient(to right, black, #140023);	
+	background-image: linear-gradient(to right, black, indigo);	
 }
 
 aside{
 	grid-area: aside;
 	display: flex;
 	justify-content: space-between;
-	background-image: linear-gradient(to right, magenta, indigo);
+	background-image: linear-gradient(to right, black, indigo);
 }
 
 article{
 	width: 30%;
 	padding: 1rem;
-	background-image: linear-gradient(to right, black, #140023);
+	background-image: linear-gradient(to right, black, indigo);
 }
 
 article img{
@@ -139,12 +139,12 @@ img:hover{
 
 #contacto{
 	grid-area: contacto;
-	background-image: linear-gradient(to right, black, #140023);
+	background-image: linear-gradient(to right, black, indigo);
 }
 
 footer{
 	grid-area: footer;
-	background-image: linear-gradient(to right, magenta, indigo);
+	background-image: linear-gradient(to right, black, indigo);
 	text-align: center;
 }
 
@@ -166,7 +166,7 @@ footer a{
 }
 
 footer a:hover{
-	color: indigo;
+	color: rgb(0, 255, 4);
 }
 
 header, section, #acerca, aside, #contacto, footer{
@@ -176,7 +176,7 @@ header, section, #acerca, aside, #contacto, footer{
 h1{
 	font-family: Montserrat;
 	font-size: 8rem;
-	background: linear-gradient(to right, fuchsia, magenta);
+	background: linear-gradient(to right, rgb(0, 255, 13), white);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -233,7 +233,7 @@ p{
 }
 
 hr{
-	border: 1px solid magenta;
+	border: 1px solid rgb(0, 255, 4);
 }
 
 .parallax{
