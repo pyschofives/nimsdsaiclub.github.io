@@ -154,7 +154,7 @@ footer{
 }
 
 footer img{
-	width: 3rem;
+	width: 2rem;
 	height: auto;
 	color: black;
 }
@@ -187,6 +187,16 @@ h2{
 	font-size: 2rem;
 	color: rgb(255, 255, 255);
 }
+h3{
+	font-family: Montserrat;
+	font-size: 2rem;
+	color: rgb(255, 255, 255);
+}
+h4{
+	font-family: Montserrat;
+	font-size: 1rem;
+	color: rgb(255, 255, 255);
+}
 
 p{
 	color: white;
@@ -204,7 +214,7 @@ p{
 
 #acerca img{
 	float: right;
-	width: 50%;
+	width: 30%;
 }
 
 #contacto{
